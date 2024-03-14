@@ -26,7 +26,7 @@ export class AppComponent {
   simulateRequest(){
   this.getReq().subscribe(r =>{
       console.log(r);
-      
+     this.res = r.name;
     })
   }
 
